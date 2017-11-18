@@ -8,6 +8,15 @@ iframe
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~ddewitz/8.embed"></iframe>
 
 
+html
+<div>
+    <a href="https://plot.ly/~ddewitz/8/?share_key=F4R6sTa26hmqe46IycdpAL" target="_blank" title="colle_crime_map.html" style="display: block; text-align: center;"><img src="https://plot.ly/~ddewitz/8.png?share_key=F4R6sTa26hmqe46IycdpAL" alt="colle_crime_map.html" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="ddewitz:8" sharekey-plotly="F4R6sTa26hmqe46IycdpAL" src="https://plot.ly/embed.js" async></script>
+</div>
+
+
+<br>
+
 You can use the [editor on GitHub](https://github.com/duckypants/portfolio_website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
