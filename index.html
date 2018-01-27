@@ -23,6 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
   </head>
 
@@ -31,7 +32,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Dan DeWitz</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -56,9 +57,11 @@
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">Danny DeWitz</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Informatics Developer</h2>
+        <h1 class="text-uppercase mb-0">Dan DeWitz</h1>
+        <!-- <hr class="star-light"> -->
+        <hr class="style2">
+        <!-- <h2 class="font-weight-light mb-0">Data Analyst and Visualization Developer</h2> -->
+        <h2 class="font-weight-light mb-0">Data Analyst and Visualization Developer</h2>
       </div>
     </header>
 
@@ -66,7 +69,7 @@
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
+        <hr class="style2">
         <div class="row">
 
           <div class="col-md-6 col-lg-12">
@@ -76,8 +79,8 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <h2>College Crime Map</h2>
-              <!-- <img class="img-fluid" src="img/portfolio/submarine.png" alt=""> -->
+              <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp College Crime Map</h3>
+              <img class="img-fluid" src="img/portfolio/map.png" alt="">
             </a>
           </div>
 
@@ -86,16 +89,16 @@
     </section>
 
     <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
+    <section class="bg-primary text-black mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
+        <h2 class="text-center text-uppercase text-black">About</h2>
+        <hr class="style2">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p class="lead">Data Analyst and Informatics Developer living and working in Madison, WI</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p class="lead">Spend my days identifying Medicare fraud as part of a Data Analytics team working for a Government Contractor</p>
           </div>
         </div>
         <div class="text-center mt-4">
@@ -110,8 +113,8 @@
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
+        <h2 class="text-center text-uppercase text-black mb-0">Contact Me</h2>
+        <hr class="style2">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
@@ -229,11 +232,19 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">College Crime Map</h2>
-              <hr class="star-dark mb-5">
+              <a href="map_crimeLegend.html">Click to View College Crime Map</a>
+              <br>
+              <hr>
               <!-- <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt=""> -->
+              <!-- <a href="url">https://plot.ly/~ddewitz/8/please-gosh-work-click-legend-to-toggle-traces</a> -->
 
 
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">Map displays crime rates per 1,000 students for every every college in the USA
+                              that had an occurance of violent crime in 2015 (the most recent data availible)
+                          <br><br>Data wrangled and geocoded using Python and Google Map's Geo-Coding Client
+                          <br><br>Map created using Python and the Plotly geocoding library
+                          <br><br>Raw data obtained throught the Clery Act --
+                          <br>which requires all schools recieving pulic funding to publish data every year</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
