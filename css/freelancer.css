@@ -7,11 +7,11 @@
   font-family: 'Lato'; }*/
 
 h1 {
-  color: black;
+  color: #2c3e50!important;
   }
 
 h2 {
-  color: black;
+  color: #2c3e50!important;
   }
 
 hr.style2 {
@@ -21,6 +21,16 @@ hr.style2 {
 
 .bg-primary {
     background-color: white !important; }
+
+.text-secondary {
+  color: #2c3e50!important;
+}
+
+.bg-primary {
+    background-color: #18bc9c!important;
+}
+
+
 
 
 /*
