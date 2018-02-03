@@ -27,7 +27,8 @@ hr.style2 {
 }
 
 .bg-primary {
-    background-color: #18bc9c!important;
+    /*background-color: #18bc9c!important;*/
+    background-color: #F0F0F0 !important;	
 }
 
 
